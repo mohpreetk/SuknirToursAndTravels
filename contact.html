@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Suknir Tours and Travels</title>
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/stylesdestinations.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="images/logo.jpg" alt="Logo" >
+      <div class="header">
+        <h1>suknir tours and travels</h1>
+        <h2>explore nature, explore himachal</h2>
+        <nav>
+          <ul>
+            <li><a href="index.html" title="Go to home page">Home</a></li>
+            <li><a href="contact.html" title="Go to contact page">Contact Us</a></li>
+            <li><a href="contact.html#legal" title="Go to legal information">Legal information</a></li>
+            <li><a href="index.html#destinations" title="Go to popular tourist places of himachal">Popular Tourist Destinations</a></li>
+          </ul>
+        </nav>
+      </div>
+      <img src="images/logo.jpg" alt="Logo" >
+    </header>
+    <main>
+        <h3 class="centre">Contact Us</h3>
+        <p>Contact: xxx xxx xxxx</p>
+        <p>Email: abc123@gmail.com</p>
+        <p>Website: suknirtoursandtravels.com</p>
+        <p>If you have any queries related to our travel packages, feel free to email us or post your queries below:</p>
+        <form id="register" method="post" action="process-form.php">
+  				<fieldset>
+    				<legend>Query Centre</legend>
+            <p>Please fill in your details</p>
+    				<div>
+    					<label for="fname">First Name</label>
+    					<input type= "text" name="fname" id="fname" required maxlength="15" size="12" placeholder="First Name">
+    				</div>
+
+    				<div>
+    				<label for="lname">Last Name</label>
+    				<input type="text" name="lname" id="lname" maxlength="15" size="12" placeholder="Last Name">
+    				</div>
+
+    				<div>
+    					<label for="city">Which city are you from?/City nearest to you</label>
+    					<select id="city" name="city">
+                <option value="none">None</option>
+    						<option value="chandigarh">Chandigarh</option>
+    						<option value="delhi">Delhi</option>
+    						<option value="mumbai">Mumbai</option>
+    						<option value="chennai">Chennai</option>
+              	<option value="kolkata">Kolkata</option>
+                <option value="pune">Pune</option>
+    					</select>
+    				</div>
+
+            <div>
+    				<label for="travel">Which city of Himachal you want to travel to?</label>
+    				<input type="text" name="travel" id="travel" maxlength="15" size="12" placeholder="Travel City">
+    				</div>
+
+    				<div>
+    					<label for="phone">Phone Number</label>
+    					<input type="tel" id="phone" name="phone" placeholder="">
+    				</div>
+
+    				<div>
+    					<label for="email">Email</label>
+    					<input type="email" id="email" name="email">
+    				</div>
+
+            <div>
+              <label for="traveldate">Travel Date</label>
+              <input type="date" id="traveldate" name="traveldate" max="2030-01-01" min="2020-04-18">
+            </div>
+
+            <div>
+    				<label for="query">Your Question?</label>
+    				<textarea name="query" id="query"></textarea>
+    				</div>
+
+            <div style="text-align: center;">
+    					<input type="submit" value="Post">
+    				</div>
+          </fieldset>
+			  </form>
+      <article class="legal">
+        <h3 class="centre" id="legal">Legal Information/Disclaimer</h3>
+        <p>This website is just for the sake of educational purposes and all content placed on this site is subject to copyright of it's respective owners. There is no intention to copy someone else's promotional or commercial content. Most pictures posted on this site are from images available for free at google play and from the sites Shutterstock, Thrillophilia and Traveltriangle. The text content is from informatonal sites like Wikipedia. The information about hotels is collected from Tripadvisor, Bookings.com and makemytrip.com. This site is fictional and any resemblance to any company or agency is pure coindence. We are sorry in case of any problems created due to our content.</p>
+      </article>
+    </main>
+    <footer>
+      <small>©2020 All rights reserved.</small>
+    </footer>
+  </body>
+</html>
