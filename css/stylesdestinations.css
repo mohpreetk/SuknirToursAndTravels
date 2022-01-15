@@ -1,0 +1,63 @@
+p {
+  border-left: 2px groove green;
+  padding: 5px;
+}
+
+div>ul {
+  list-style-type: square;
+  margin: 10px;
+  padding: 10px;
+}
+
+.places, .hotels {
+  display: list-item;
+}
+
+.inline {
+  display: flex;
+  font-style: italic;
+}
+
+/* inline styles */
+strong {
+  text-decoration: underline;
+  text-decoration-color: #19198a;
+  color: red;
+  font-weight: 900;
+}
+
+span {
+  background-color: inherit;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  color: red;
+  font-weight: 900;
+}
+
+mark {
+  background-color: #e67c19;
+}
+
+/* styles specific to contact us page */
+input, select, textarea {
+  background-color: black;
+  border: 2px ridge grey;
+  color: white;
+}
+
+.legal, #legal {
+  font-family: monospace;
+}
+
+/* setting the color of placeholder for all browsers */
+::placeholder {
+    color: red;
+}
+
+:-ms-input-placeholder {
+    color: red;
+}
+
+::-ms-input-placeholder {
+    color: red;
+}

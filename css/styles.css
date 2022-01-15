@@ -1,0 +1,119 @@
+/* basic Styles */
+body {
+  font: normal 400 20px/1.2 "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+  background-color: #46c2db;
+}
+
+/* #e38a84 */
+/* Header styles */
+header, footer {
+  background-color: #ffeee4;
+  display: flex;
+  margin: auto;
+  position: sticky;
+  top:25px;
+  width: 100%;
+}
+
+img, .header {
+  flex-grow: 1;
+}
+
+header>img {
+  margin: 10px 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1{
+  font: italic 700 2rem Copperplate, "Copperplate Gothic Light", fantasy;
+  text-decoration: underline;
+  color: red;
+  text-transform: uppercase;
+}
+
+h2 {
+  font: italic 500 1.5rem Copperplate, "Copperplate Gothic Light", fantasy;
+  text-decoration: underline;
+  color: green;
+  text-transform: capitalize;
+}
+
+nav{
+  display: inline-block;
+  background-color: #080a4a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* background-color: #e38a84; */
+}
+
+li {
+  display: inline;
+  padding-right: 20px;
+}
+
+li a:hover, a:hover {
+  background-color: #49e350;
+}
+
+li a:active, a:active {
+  background-color: #7d2e2c;
+}
+
+li a:visited, a:visited {
+  color:#f01db4;
+}
+
+/* styling the anchors around the website */
+a {
+  font-weight: 900;
+  background-color: #080a4a;
+  color: #cfc10a;
+  text-decoration: underline;
+  text-decoration-color: #19198a;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #4c17eb;
+  text-decoration: underline;
+  text-decoration-style: double;
+  font-style: italic;
+  font-family: papyrus, fantasy;
+  font-weight: 700;
+}
+
+small {
+  color: #ed0f07;
+}
+
+img {
+  margin: 10px;
+  border: 3px dotted green;
+}
+
+/* Classes for specific alignment */
+.centre {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}

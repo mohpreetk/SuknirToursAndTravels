@@ -1,0 +1,16 @@
+.destinations {
+  display: flex;
+}
+
+p {
+  border-left: 3px dashed blue;
+  border-right: 3px dashed blue;
+}
+
+article {
+  background-image: url(../images/himachal.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: 600;
+  width: 100%;
+}
